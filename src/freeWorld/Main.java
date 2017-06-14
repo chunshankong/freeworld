@@ -8,7 +8,7 @@ public class Main{
 		
 		System.out.println("free World");
 		WindowsKernel windows = new WindowsKernel();
-		windows.runApp(new GameTest(),1000,1000);
+		windows.runApp(new GameTest(),1000,1000,30);
 		
 	}
 }
